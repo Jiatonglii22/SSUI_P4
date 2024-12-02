@@ -1,0 +1,158 @@
+/* Import Quicksand font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+html, body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0; 
+    padding: 0;
+    height: 100%; 
+  }
+  
+  /* Specific styles for elements to enhance the cuteness */
+  h1, h2, h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+  }
+  
+  button {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    background-color: #FFB6C1;
+    color: white;
+    border: none;
+  }
+  
+  textarea {
+    font-family: 'Quicksand', sans-serif;
+  }
+/* Container styles to create a two-column layout and a bottom section */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: #231942; 
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto; 
+  }
+  
+  /* Flex container for the form and to-do list */
+  .top-section {
+    display: flex;
+    width: 100%;
+    max-width: 1300px; 
+    justify-content: space-between;
+    margin-bottom: 20px; 
+  }
+  
+  /* Left side (ToDo form) */
+  .todo-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 45%; 
+    padding: 20px;
+    background-color: #9F86C0; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #ffffff; 
+  }
+  
+  /* Style for the input fields and button */
+  input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid #E0B1CB; 
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif; 
+    outline: none; 
+  }
+  
+  button {
+    background-color: #E0B1CB; 
+    color: white;
+    cursor: pointer;
+  }
+  button.react-datepicker__close-icon:hover {
+    background-color: inherit;
+    color: inherit;
+  }
+  
+  button:hover {
+    background-color: #9C27B0; 
+  }
+  
+  
+  /* Right side (ToDo list) */
+  .todo-list {
+    width: 45%;
+    padding: 20px;
+    background-color: #9F86C0; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #ffffff; 
+    overflow-y: auto; 
+  }
+  
+  /* Style for the ToDo list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style for individual list items */
+  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff5f9; 
+    border-radius: 8px;
+    width: 100%; 
+    box-sizing: border-box; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    color: #6A1B9A; 
+  }
+  
+  /* Confetti effect */
+.react-confetti {
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .todo-input {
+    width: 100%;      
+    padding: 8px;      
+    font-size: 16px;     
+    border: 1px solid #ccc;
+    border-radius: 4px;   
+    box-sizing: border-box;
+  }
+  .tag-input {
+    font-size: 12px; 
+  }
+  .tag-selection {
+    font-size: 12px;
+  }
+  .btn-add-tag {
+    font-size: 12px;
+  }
+  /* The spacer div */
+  .spacer {
+    height: 20px; 
+  }
+  label {
+    font-size:20px;
+    padding: 10px;
+  }
+  .todo-btn {
+    width: 50%;
+  }
+  .new-item-form {
+    justify-content: center; 
+
+  }
